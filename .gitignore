@@ -1,0 +1,36 @@
+# Python & Virtual Environments
+backend/venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Secret files
+.env
+.env.local
+.env.*.local
+
+# OS Generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model artifacts (GitHub blocks files > 100MB unless using Git LFS)
+# diamond_random_forest.pkl is ~454 MB. Uncomment the line below if NOT using Git LFS:
+# backend/models/*.pkl
+
+
+backend/models/*.pkl
