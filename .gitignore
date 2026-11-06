@@ -8,6 +8,7 @@ __pycache__/
 *$py.class
 *.so
 .pytest_cache/
+.ipynb_checkpoints/
 
 # Node & Frontend
 frontend/node_modules/
@@ -28,9 +29,5 @@ pnpm-debug.log*
 Thumbs.db
 desktop.ini
 
-# Model artifacts (GitHub blocks files > 100MB unless using Git LFS)
-# diamond_random_forest.pkl is ~454 MB. Uncomment the line below if NOT using Git LFS:
-# backend/models/*.pkl
-
-
+# Model artifacts (> 100MB)
 backend/models/*.pkl
